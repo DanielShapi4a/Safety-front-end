@@ -1,0 +1,77 @@
+.MapContent {
+  text-align: center;
+  margin: 20px 0;
+  color: white; 
+  background-color: #222; 
+}
+
+.Left-Right-Sides {
+  display: flex;
+  justify-content: center;
+}
+
+.MapContainerWrapper {
+  width: 70%;
+  height: 80vh;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-right: 20px; 
+}
+
+
+/* Style for the Main-Text container */
+.Main-Text {
+  width: 30%;
+  padding: 20px;
+  color: white; 
+  background-color: #222; 
+  border-radius: 10px;
+}
+
+/* Style for the Main-Text headings */
+.Main-Text h2  {
+  color: blueviolet; 
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.Main-Text h3 {
+  font-size: 28px;
+  color: blueviolet; 
+  margin-top: 40px; 
+}
+
+/* Style for the Main-Text paragraphs */
+.Main-Text p {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #ddd; 
+}
+
+.legend {
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: rgb(128, 120, 120);
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+
+.legend-color {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
